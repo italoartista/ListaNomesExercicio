@@ -2,7 +2,7 @@
  
  const ListaNomes = ({nome, sobrenome, nomes, estilo }) => { 
     const [value, setValue] = useState('')
-    const [nomes, setNomes] = useState(nomes)    
+ 
     return (
         <>
             <ul style={estilo}   >
@@ -15,7 +15,7 @@
                 }
             </ul>
             <input type="text" value={value} onChange={(e) => setValue(e.target.value) } placeholder="Digite um nome" />    
-            <button onClick={() => setNomes()}>Adicionar</button>
+            <button >Adicionar</button>
             <p>{value}</p>    
         </>
     )
