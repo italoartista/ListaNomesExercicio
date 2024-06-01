@@ -27,7 +27,7 @@ function App() {
   }
   return (
     <>
-      <ListaNomes estilo={estilo} nomes={nomes} nome='Italo'  sobrenome='Adler'/>    
+      <ListaNomes />    
     </>
   )
 }
